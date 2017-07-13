@@ -1,0 +1,9 @@
+html {
+  min-height: 100%;
+}
+
+body:not(#tinymce) {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}

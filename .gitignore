@@ -1,0 +1,13 @@
+# Keep these files out of the repo
+node_modules
+bower_components
+/sitemap.*
+/wp-config.php
+*.sql
+dist
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*

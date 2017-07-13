@@ -1,0 +1,181 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+body {
+  background-color: #f4f4f4;
+}
+
+.navbar {
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  a {
+    color: #FFF;
+  }
+
+}
+
+body > .navbar {
+  margin-bottom: 50px;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+#hero-image {
+  background: url('/wp-content/themes/esal/assets/images/hero-image.jpg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 50px;
+
+  h1 {
+    color: #FFF;
+    text-shadow: 0 0 15px $brand-primary;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'Roboto', 'sans-serif';
+}
+
+h3 {
+  letter-spacing: 1px;
+}
+
+hr {
+  margin: 3rem 0;
+}
+
+/* events page styling */
+
+.hlist {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
+
+.event-list-view,
+.single-event-view {
+  list-style: none;
+  padding-left: 0;
+
+  li.event {
+    border-top: 1px solid #CCC;
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+
+  .event-date {
+    width: 100%;
+  }
+
+  .event-info-single-day {
+    width: 100%;
+  }
+
+  .start-date div {
+    display: inline-block;
+    margin-right: 6px;
+    color: #777;
+    font-style: italic;
+  }
+
+  .event-location {
+    display: block;
+  }
+}
+
+.main {
+  background-color: #FFF;
+  padding: 30px 50px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px 1px #ddd;
+}
+
+.navbar-nav li a {
+    padding: 20px 20px;
+    line-height: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-weight: 700;
+  margin: 0 0 1.6rem;
+}
+
+h1 {
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-weight: normal;
+  line-height: 30px;
+  line-height: 3.0rem;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+  line-height: 2.2rem;
+  margin-bottom: 7px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 2px;
+  line-height: 2rem;
+  margin-bottom: 5px;
+}
+
+.site-inner,
+.wrap {
+  margin: 0 auto;
+  max-width: 750px;
+}

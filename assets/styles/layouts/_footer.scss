@@ -1,0 +1,28 @@
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  margin-top: 50px;
+  
+  p {
+    margin: 0 auto;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  .col-sm-6 {
+    line-height: 33px;
+  }
+
+  .pull-right a {
+    margin-left: 5px;
+
+    &:hover {
+      text-decoration: none;
+      color: darken(#FFFFFF, 10%)
+    }
+  }
+}

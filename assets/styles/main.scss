@@ -50,10 +50,10 @@ body > .navbar {
 #hero-image {
   background: url('/wp-content/themes/esal/assets/images/hero-image.jpg');
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: cover;
+  background-position: 0 -55px;
+  background-size: 100%;
   background-attachment: fixed;
-  height: 550px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ body > .navbar {
   margin-bottom: 50px;
 
   h1 {
-    color: #FFF;
+    color: #000;
     text-shadow: 0 0 15px $brand-primary;
   }
 }
